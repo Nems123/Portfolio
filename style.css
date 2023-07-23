@@ -43,10 +43,11 @@ nav ul li a{
     text-decoration: none;
     font-size: 18px;
     position: relative;
+    color: #26b12a;
 }
 nav ul li a::after{
     content: '';
-    width: 10%;
+    width: 25%;
     height: 3px;
     background: #ff004f;
     position: absolute;
@@ -64,6 +65,10 @@ nav ul li a:hover::after{
 .header-text p{
     margin-top: 50px;
 }
+/* .header-text, .connection{
+    color: #61b752;
+    margin-top: 20%;
+} */
 .header-text h1{
     font-size: 60px;
     margin-top: 20px;
@@ -71,6 +76,7 @@ nav ul li a:hover::after{
 .header-text h1 span{
     color: #ff004f;
 }
+
 
 /*-------------about---------------*/
 #about{
@@ -123,7 +129,7 @@ nav ul li a:hover::after{
     transition: 0.5s;
 }
 .tab-links.active-link::after{
-    width: 50%;
+    width: 100%;
 } 
 .tab-contents ul li{
     list-style: none;
@@ -264,7 +270,7 @@ nav ul li a:hover::after{
     padding: 10px 0;
 }
 .card{
-    object-fit: cover;
+    object-fit: fill;
     width: auto;
     height: auto;
 }
@@ -278,12 +284,12 @@ nav ul li a:hover::after{
     align-items: start;
 }
 .grid-item{
-    object-fit: fill;
-    box-sizing: content-box;
+    object-fit: cover;
+    box-sizing: border-box;
     background-color: rgb(65, 65, 69);
     border-radius: 10px;
     overflow: hidden;
-    box-shadow: 0 3rem 3rem rgba(0,0,0,0.1);
+    box-shadow: 0 3rem 3rem rgba(249, 247, 247, 0.1);
     cursor: pointer;
     transition: 0.2s;
 }
@@ -296,7 +302,7 @@ nav ul li a:hover::after{
      display: block;
      width: 70%;
      height: 70%;
-     object-fit: cover;
+     object-fit: fill;
  }
  .card-content{
      padding: 2px;
@@ -306,7 +312,7 @@ nav ul li a:hover::after{
      font-weight: 500;
      color: #ddd;
      margin-bottom: 2px;
-     text-align: center;
+     text-align: start;
  }
  /* .card-text{
      font-size: 20px;

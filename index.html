@@ -27,7 +27,7 @@
                 <i class="fa-solid fa-bars" onclick="openmenu()"></i>
             </nav>
             <div class="header-text">
-                <p id="name">Web Developer</p>
+                <p id="name">Front-end Developer</p>
                 <h1 id="name">Hi, I'm <span>Nemi</span></h1>
             </div>
         </div>
@@ -42,30 +42,37 @@
                 <h1 class="sub-title">About Me</h1>
                 <p>I am a person who is positive about every aspect of life. There are many things I like to do, to see, and to experience. Self-motivated computer science and engineering student to work in a challenging & professional environment, this helps me to develop my skills and where I can apply my knowledge to prove myself as an efficient engineer.</p>
                 <div class="tab-titles">
-                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links active-link" onclick="opentab('education')">Education</p>
+                    <p class="tab-links" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('technologies')">Technologies</p>
                     <p class="tab-links" onclick="opentab('experience')">Experience</p>
-                    <p class="tab-links" onclick="opentab('education')">Education</p>
                 </div>
-                <div class="tab-contents active-tab" id="skills">
+                <div class="tab-contents active-tab" id="education">
                     <ul>
-                        <li><span>Content Writing</span><br>In the team of content writing in Eskra memoir our institute's personal magazine</li>
+                        <li><span>BE</span><br>7.22 CGPA till 5th sem<br>Computer Science & Engineering at RNGPIT, Tajpore</li>
+                        <li><span>Diploma</span><br>9.28 CGPA<br>Computer Engineering at JHDP, Palsana</li>
+                        <li><span>SSC</span><br>6.33%<br>Sardar Patel Vidhyalaya, Ena</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="skills">
+                    <ul>
+                        <li><span>Content Writing</span><br>Writing Contents</li>
                         <li><span>Web Development</span><br>Web Application Development</li>
-                        <li><span>App Development</span><br>Building Android UI</li>
+                        <li><span>Application Development</span><br>Building Android UI</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="technologies">
+                    <ul>
+                        <li><span>Android Studio</span><br>XML, Java</li>
+                        <li><span>Visual Studio Code</span><br>HTML, CSS, PHP, Java Script(begginer)</li>
                     </ul>
                 </div>
                 <div class="tab-contents" id="experience">
                     <ul>
                         <li>Yet Student</li>
-                        <!-- <li><span>Web Development</span><br>Web Application Development</li>-->
                         <li><span>App Development project in Diploma</span><br>Build an android app for Food Waste Management</li>
                         <li><span>WEB Development project in BE</span><br>Build an web app named Inspace regarding space website</li>
-                    </ul>
-                </div>
-                <div class="tab-contents" id="education">
-                    <ul>
-                        <li><span>BE</span><br>Computer Science & Engineering at RNGPIT, Tajpore</li>
-                        <li><span>Diploma</span><br>Computer Engineering at JHDP, Palsana</li>
-                        <li><span>SSC</span><br>Sardar Patel Vidhyalaya, Ena</li>
+                        <li><span>Content writing in BE</span><br>Working in content writing team of our institute's personal magazine ESKRA</li>
                     </ul>
                 </div>
             </div>
@@ -79,19 +86,19 @@
             <h1 class="sub-title">My Services</h1>
             <div class="services-list">
                 <div>
+                    <i class="fa-brands fa-android"></i>
+                    <h2>Application Design</h2>
+                    <p>I like to design UI of android APP(Front-end)</p>
+                </div>
+                <div>
                     <i class="fa-sharp fa-solid fa-code"></i>
                     <h2>Web Design</h2>
-                    <p>I like to design web application UI...</p>
+                    <p>I like to develop websites...</p>
                 </div>
                 <div>
                     <i class="fa-regular fa-face-grin-squint"></i>
                     <h2>Content Writing</h2>
                     <p>I like to put my thoughts into words by writing...</p>
-                </div>
-                <div>
-                    <i class="fa-brands fa-android"></i>
-                    <h2>Application Design</h2>
-                    <p>I like to design UI of android APP(Front-end)</p>
                 </div>
             </div>
         </div>
@@ -108,7 +115,7 @@
                     <div class="layer">
                         <h3>Food Management App</h3>
                         <p> This application guides the donors to provide food to needy one ...</p>
-                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <a href="Gfgl.pdf"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                     </div>
                 </div>
                 <div class="work">
@@ -116,15 +123,16 @@
                     <div class="layer">
                         <h3>InSpace</h3>
                         <p> This website will help researcher to get information regarding space from one place...</p>
-                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <a href="Inspace.pdf"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <!-- <a href="window.open('file:C:\Users\bhatt\OneDrive\Documents\Portfolio Nemi\Inspace.pdf');"><i class="fa-solid fa-arrow-up-right-from-square"></i></a> -->
                     </div>
                 </div>
                 <div class="work">
                     <img src="images/work-3.png" alt="">
                     <div class="layer">
                         <h3>Personal Portfolio</h3>
-                        <p> This is my personal portfolio to show my technical skills and about me...</p>
-                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <p> This is my personal portfolio website...</p>
+                        <a href="Portfolio_Nemi.pdf"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                     </div>
                 </div>
             </div>
@@ -132,33 +140,7 @@
         </div>
     </div>
 
-    <!--Certificates-->
-    <!-- <div id="certificate">
-        <div class="container">
-            <h1 class="sub-title">Certificates</h1>
-            <div class="certificate-list">
-                <div>
-                    <i class="fa-sharp fa-solid fa-code"></i>
-                    <h2>Ttitles</h2>
-                    <p>Year in which you got certificate</p>
-                    <a href="images/NBlogo.png">Open Certificate</a>
-                </div>
-                <div>
-                    <i class="fa-regular fa-face-grin-squint"></i>
-                    <h2>Ttitles</h2>
-                    <p>Year in which you got certificate</p>
-                    <a href="#">Open Certificate</a>
-                </div>
-                <div>
-                    <i class="fa-brands fa-android"></i>
-                    <h2>Ttitles</h2>
-                    <p>Year in which you got certificate</p>
-                    <a href="#">Open Certificate</a>
-                </div>
-            </div>
-        </div>
-    </div> -->
-
+<!-- Certificate -->
     <div id="certificate">
         <div class="container">
             <h1 class="sub-title">Certificates</h1>
@@ -207,6 +189,39 @@
                 </div>
             </div>
 
+            <div class="grid-item">
+                <div class="card">
+                    <img class="card-img" src="Certificates/CodeUnnati.png" alt="Web Tag" />
+                    <div class="card-content">
+                        <h1 class="card-header">Code Unnati by SAP</h1>
+                        <!-- <p class="card-text">Course of UX...</p> -->
+                        <!-- <button class="card-btn">Open Certificate <span>&rarr;</span></button> -->
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid-item">
+                <div class="card">
+                    <img class="card-img" src="Certificates/InternshipCerti.png" alt="Web Tag" />
+                    <div class="card-content">
+                        <h1 class="card-header">Web Design Internship by SparksToIdeas</h1>
+                        <!-- <p class="card-text">Course of UX...</p> -->
+                        <!-- <button class="card-btn">Open Certificate <span>&rarr;</span></button> -->
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid-item">
+                <div class="card">
+                    <img class="card-img" src="Certificates/MarathonCerti.png" alt="Web Tag" />
+                    <div class="card-content">
+                        <h1 class="card-header">Innovation Marathon Finalist</h1>
+                        <!-- <p class="card-text">Course of UX...</p> -->
+                        <!-- <button class="card-btn">Open Certificate <span>&rarr;</span></button> -->
+                    </div>
+                </div>
+            </div>
+
             </div>
         </div>
     </div>
@@ -230,11 +245,11 @@
                     <a href="images/NemiCV.pdf" download class="btn btn2">Download CV</a>
                 </div>
                 <div class="contact-right">
-                    <form name="submit-to-google-sheet">
+                    <form name="submit-to-google-sheet" action="connection.php">
                         <input type="text" name="Name" placeholder="Your Name" required>
                         <input type="email" name="Email" placeholder="Your Email" required>
                         <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
-                        <button type="submit" class="btn btn2">Submit</button>
+                        <button type="submit" class="btn btn2" onclick="insert()">Submit</button>
                     </form>
                     <span id="msg"></span>
                 </div>
